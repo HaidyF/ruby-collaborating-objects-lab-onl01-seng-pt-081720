@@ -12,7 +12,7 @@ class Song
   end
 
   def artist_name(name)
-    @@artist_name = name
+    @artist_name = name
     return name
   end
 
