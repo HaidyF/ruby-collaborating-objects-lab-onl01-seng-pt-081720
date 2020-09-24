@@ -18,6 +18,10 @@ class Song
     return artist
   end
 
+  def artist
+    @artist
+  end
+
 
   def self.new_by_filename(filename)
     split_name = filename.split(" - ")
