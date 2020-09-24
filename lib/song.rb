@@ -12,9 +12,8 @@ class Song
   end
 
   def artist_name(name)
-    artist = Artist.new(name)
     @artist_name = name
-    @artist = artist
+    @artist = Artist.new(name)
     return artist
   end
 
